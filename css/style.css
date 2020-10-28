@@ -19,7 +19,7 @@ nav {
    margin: auto;
    padding: 0 30px;
 }
-ul {
+.menu {
    font-family: "Roboto", "OpenSans-Light", Helvetica, Arial, sans-serif;
    font-weight: 300;
    display: flex;
@@ -27,7 +27,7 @@ ul {
    align-items: center;
    flex: 1;
 }
-li {
+.menu li {
    display: inline-block;
    padding: 15px 25px;
    color: #ffffff;
@@ -36,13 +36,14 @@ nav img {
    width: 35px;
    padding: 15px 0;
 }
-nav a {
+.menu a {
    color: #ffffff;
    text-decoration: none;
    border-bottom: 1px solid transparent;
    transition: border 250ms ease-in-out;
 }
-nav a:hover {
+.menu a:hover {
+  color: #ffffff;
    border-bottom: 1px solid #ffffff;
 }
 .top-image {
